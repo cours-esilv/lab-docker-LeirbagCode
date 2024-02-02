@@ -1,0 +1,3 @@
+docker stop docky
+docker rm docky
+docker run -p 5000:5000 -e CURRENT_ENVIRONMENT=production --name docky -d leirbagdocker/mytp:latest
