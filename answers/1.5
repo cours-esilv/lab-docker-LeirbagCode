@@ -1,2 +1,2 @@
-docker rm my-tp-container
-docker run -d -p 5000:5000 --name my-tp-container -e environnement=production tp 
+docker stop my-tp-container
+docker run -d -p 5000:5000 -e environment=development my-tp-container tp
