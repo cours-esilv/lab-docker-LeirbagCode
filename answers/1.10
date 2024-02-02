@@ -1,0 +1,2 @@
+docker exec -it newname /bin/sh
+docker run -it leirbagdocker/mytp:latest /bin/sh
